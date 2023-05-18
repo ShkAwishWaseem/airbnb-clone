@@ -1,0 +1,52 @@
+.banner{
+    background: url('./imgs/bg.webp') center center;
+    margin-top: 20px;
+    width: 100%;
+    height: 70vh;
+}
+.banner__info {
+    color: white;
+    background-color: black;
+    width: 40%;
+    height: 70vh;
+    padding: 10% 10px 5px 20px;
+} 
+.banner__info > h2{
+   font-size: 25px;
+}
+.banner__info > h3{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.banner__info > a{
+    text-decoration: none;
+}
+.banner__info > a button{
+    color: #ff7779;
+    background-color: #fff;
+    margin-top: 10px;
+    font-weight: 600 !important;
+    font-size: inherit !important;
+}
+
+
+
+
+@media only screen and (max-width:626px){
+    .banner , .banner__info {
+        height: 100vh;
+    }
+}
+
+
+@media only screen and (max-width:400px){
+    .banner__info{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:229px){
+    .banner , .banner__info {
+        height: 80vh;
+    }
+}

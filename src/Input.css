@@ -1,0 +1,54 @@
+.input{
+    background: url('./imgs/bg.webp') center center;
+    height: 50vh;
+    width: 100%;
+    padding: 20px;
+    margin: 10% auto 0% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input input{
+    width: 40%;
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid #ff7779;
+    border-radius: 10px;
+    margin: 7px 0px;
+}
+.input > a{
+    text-decoration: none;
+}
+.input >  a button{
+        cursor: pointer;
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 10px;
+        outline: none;
+        color: #fff;
+        background-color: #ff7779;
+        border: 0.3px solid #ff7779;
+        transition: all 100ms ease-in;
+}
+.input > a button:hover{
+    background-color: #fff;
+    color: #ff7779;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:551px){
+    .input input{
+        width: 100%;
+    }
+    .input > a button{
+        width: 100%;
+    }
+}

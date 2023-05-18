@@ -1,0 +1,45 @@
+.explore{
+    /* background-color: #e8e5e5; */
+    position: relative;
+}
+.explore > hr{ 
+    width: 70%;
+    margin: auto;
+}
+.explore > .explore__arrow{
+    font-size: 50px;
+    
+}
+.explore > .arrow{
+    background-color: #ff7779;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    padding: 10px 15px;
+    width: 50px;  
+    color: white !important;
+    position: absolute;
+    animation: move 1s alternate infinite;
+    cursor: pointer;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes move {
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+@media  only screen and (max-width:425px){
+    .explore > .arrow{
+        position: absolute;
+        bottom: 100px;
+        right: 15px;
+    }
+}
