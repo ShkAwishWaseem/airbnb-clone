@@ -4,6 +4,7 @@ A simple web clone of Airbnb
 
 ## Features
 - Responsive design
+- fire base 
 
 ## Technologies
 - **Frontend**: React
